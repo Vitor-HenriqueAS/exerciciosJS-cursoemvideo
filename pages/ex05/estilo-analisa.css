@@ -1,0 +1,24 @@
+section {
+    background-color: #fff;
+    max-width: 600px; 
+    padding: 20px; 
+    color: #000;
+    text-shadow: none;
+    border: 2px solid black;
+    gap: 20px;
+    overflow: auto;
+}
+
+select {
+    background-color: rgb(201, 201, 250);
+    max-width: 300px;
+    min-width: 200px;
+}
+
+option {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}

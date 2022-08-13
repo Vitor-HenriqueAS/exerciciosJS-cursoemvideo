@@ -1,0 +1,33 @@
+.section {
+    background-color: #fff;
+    width: 300px;
+    padding: 25px;
+    color: #000;
+    text-shadow: none;
+}
+
+.box {
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box input {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn-contar {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .3s ease-in-out;
+}
+
+.btn-contar:hover {
+    background-color: #5f70bd;
+    color: #fff;
+}

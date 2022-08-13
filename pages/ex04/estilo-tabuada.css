@@ -1,0 +1,40 @@
+section {
+    background-color: #fff; 
+    max-width: 600px; 
+    padding: 20px; 
+    border: 2px solid black;
+    color: #000;
+    text-shadow: none;
+    overflow: auto;
+}
+
+input {
+    min-width: 400px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-align: center;
+    transition: .8s ease-in-out;
+}
+
+input.valid {
+    min-width: 100px;
+}
+
+input.invalid {
+    min-width: 400px;
+}
+
+button {
+    background-color: #a0fcb4;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #79df8f;
+}

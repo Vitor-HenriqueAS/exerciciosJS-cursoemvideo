@@ -1,0 +1,13 @@
+@media only screen and (max-width: 645px){
+    .cabecalho {
+        height: 8vh;
+    }
+    .cabecalho , .conteudo .titulo, .conteudo .sub-titulo{
+        font-size: 1.3em;
+    }
+    .lista-exercicios .box{
+        flex-direction: column;
+        width: 350px;
+        height: 350px;
+    }
+}
